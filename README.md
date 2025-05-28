@@ -6,6 +6,7 @@
   <img src="https://img.shields.io/github/license/KOrtizLedezma/BFTranslator" alt="License" />
 </p>
 
+A lightweight command-line tool that translates Brainfuck programs into C code, compiles them using `gcc`, and runs the output automatically.
 
 ## Overview
 
@@ -27,11 +28,11 @@ This tool takes Brainfuck code â€” either from a file or direct terminal input â
 
 ### Build Instructions
 ```bash
-  git clone https://github.com/KOrtizLedezma/BFTranslator.git
-  cd BFTranslator
-  mkdir build && cd build
-  cmake ..
-  make
+git clone https://github.com/KOrtizLedezma/BFTranslator.git
+cd BFTranslator
+mkdir build && cd build
+cmake ..
+make
 ```
 This builds the brainfuck_translator binary.
 
@@ -39,11 +40,11 @@ This builds the brainfuck_translator binary.
 
 ### Translate from a file
 ```bash
-  ./brainfuck_translator path/to/program.bf
+./brainfuck_translator path/to/program.bf
 ``` 
 ### Translate from terminal input
 ```bash
-  ./brainfuck_translator
+./brainfuck_translator
 ```
 
 ## Inspiration
