@@ -1,0 +1,3 @@
+/home/kenet/Documents/Projects/BFTranslator/build/CMakeFiles/brainfuck_translator.dir
+/home/kenet/Documents/Projects/BFTranslator/build/CMakeFiles/edit_cache.dir
+/home/kenet/Documents/Projects/BFTranslator/build/CMakeFiles/rebuild_cache.dir
